@@ -1,0 +1,71 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #414141;
+  margin: 0;
+  padding: 0;
+}
+
+
+.app-container {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: wheat;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+h1, h2, h3 {
+  color: wheat;
+}
+
+
+button {
+  background-color: wheat;
+  color: black;
+  border: none;
+  padding: 8px 16px;
+  margin: 5px 5px 5px 0;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #3730a3;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: wheat;
+  padding: 15px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+}
+
+li strong {
+  color: #1f2937;
+}
+
+
+input[type="text"], input[type="password"], input[type="datetime-local"] {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 12px 0;
+  color: black;
+  background-color: wheat;
+  border: 1px solid black;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+form button {
+  margin-top: 10px;
+}
